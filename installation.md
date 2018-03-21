@@ -52,3 +52,12 @@ så är det här för dig.
 3. Om php är korrekt installerat så borde du nu kunna köra igång en lokal server i valfri mapp via terminalen med `php -S localhost:3000`
 
 **Observera att detta installerar enbart `PHP` och inte `MySQL` som senare behövs i kursen. Om du kör denna väg så måste du även separat installera `MySQL` och ett gränssnitt för `MySQL`. Det går även att köra `MySQL`-databasen via MAMP och sedan köra PHP via terminalen. De går att kombinera**
+
+
+## XDEBUG
+
+För att lättare debugga PHP så finns det ett tillägg som heter `Xdebug` som gör att man kan debugga PHP via sin editor. Man måste dock installera det själv och det är seg process ibland.
+
+1. Ta reda på vad du har för `phpinfo` och kopiera den informationen. Med MAMP kan du gå till tabben `phpinfo` och kopiera hela sidan, markera hela sidan och kopiera. I terminalen kan du köra `php -i` och kopiera den output som genereras.
+2. Gå till [https://xdebug.org/wizard.php](https://xdebug.org/wizard.php) och följ instruktionerna nogrannt
+3. Om du har gjort klart alla steg kan du dubbelkolla att det fungerade genom att klistra in din nya `phpinfo` i denna wizard igen, om det står `Xdebug: Yes` längst upp så är det installerat.

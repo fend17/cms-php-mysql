@@ -8,6 +8,7 @@
      - [Mac](#mac-1)
       - [Windows](#windows-1)
 * [MySQL - kommer snart]()
+* [Xdebug](#xdebug)
 
 ## `PHP`
 

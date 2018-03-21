@@ -22,12 +22,14 @@ så är det här för dig.
 1. Installera [MAMP](https://www.mamp.info/en/)
 2. Se till så att du kan starta MAMP och programmet går igång, i högra hörnet på programmet borde `Apache Server` samt `MySQL Server` vara ikryssade.
 3. Tryck på **My Website** för att komma till din hemsida (som nu är tom men du borde få upp någonting iaf)
+4. MAMP serverar de filer som ligger i en specifik mapp. På Mac är denna mapp: `/Applications/MAMP/htdocs`. Om du lägger in en `index.html` eller någon av din tidigare kod i denna mapp så kan du kolla så att det fungerar. Allting som ligger i den mappen går att komma åt via `localhost`. Du kan ändra om du vill att denna mapp ska ligga på något annat ställe genom att gå till **Preferences>Web Server** och sen ändra den mapp som står där.
 
 #### Windows
 
 1. Installera [MAMP](https://www.mamp.info/en/) (MAMP finns även till Windows fast det är utvecklat från början till Mac)
 2. Se till så att du kan starta MAMP och programmet går igång, i högra hörnet på programmet borde `Apache Server` samt `MySQL Server` vara ikryssade.
 3. Tryck på **My Website** för att komma till din hemsida (som nu är tom men du borde få upp någonting iaf)
+4. MAMP serverar de filer som ligger i en specifik mapp. På Mac är denna mapp: `C:\MAMP\htdocs`. Om du lägger in en `index.html` eller någon av din tidigare kod i denna mapp så kan du kolla så att det fungerar. Allting som ligger i den mappen går att komma åt via `localhost`. Du kan ändra om du vill att denna mapp ska ligga på något annat ställe genom att gå till **Preferences>Web Server** och sen ändra den mapp som står där.
 
 **Observera att det finns massa andra program som gör samma sak: [XAMPP](https://www.apachefriends.org/index.html), [WAMP](http://www.wampserver.com/en/) och många fler. Sök runt på google så hittar du lite olika, det spelar ingen roll vilken du tar, alla gör samma sak, det är bara användarvänligheten som brukar skilja**
 

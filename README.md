@@ -50,9 +50,9 @@ _Tips: öka hastigheten till 1.25x eller 1.5x om det går för långsamt_
 
 > Länkar kommer att fyllas på med fler länkar till varje moment
 
-| Pass  | Vecka     | Datum   | Innehåll                                                | Länkar                                                |
-|-------|-------    |---------|---------------------------------------------------------|-------------------------------------------------------|
-| 1     | **13**    | 28/3    | Introduktion, Sätta upp webserver, Grundläggande PHP    |[MAMP](https://www.mamp.info/en/), [PHP Installation](http://www.phptherightway.com/#use_the_current_stable_version)|
+| Pass  | Vecka     | Datum   | Innehåll                                                | Länkar                                                | Övningar |
+|-------|-------    |---------|---------------------------------------------------------|-------------------------------------------------------|---|
+| 1     | **13**    | 28/3    | Introduktion, Sätta upp webserver, Grundläggande PHP    |[MAMP](https://www.mamp.info/en/), [PHP Installation](http://www.phptherightway.com/#use_the_current_stable_version)| [01](https://github.com/fend17/cms-php-mysql/blob/master/exercises/01_basic_syntax.md), [02](https://github.com/fend17/cms-php-mysql/blob/master/exercises/02_variables_if_else.md), [03](https://github.com/fend17/cms-php-mysql/blob/master/exercises/03_loops.md), [04](https://github.com/fend17/cms-php-mysql/blob/master/exercises/04_functions.md) |
 | 2     | 13        | 29/3    | PHP Programmering, Arrayer, funktioner, scope           |[PHP Pandas](http://daylerees.com/php-pandas/)        |
 | 3     | **14**    | 4/4     | `include`/`require`, filstruktur, separation of concerns|[PHP Pandas](http://daylerees.com/php-pandas/)        |
 | 4     | 14        | 5/4     | Objektorienterad PHP                                    |[PHP Pandas](http://daylerees.com/php-pandas/)        |

@@ -60,5 +60,9 @@ så är det här för dig.
 För att lättare debugga PHP så finns det ett tillägg som heter `Xdebug` som gör att man kan debugga PHP via sin editor. Man måste dock installera det själv och det är seg process ibland.
 
 1. Ta reda på vad du har för `phpinfo` och kopiera den informationen. Med MAMP kan du gå till tabben `phpinfo` och kopiera hela sidan, markera hela sidan och kopiera. I terminalen kan du köra `php -i` och kopiera den output som genereras.
-2. Gå till [https://xdebug.org/wizard.php](https://xdebug.org/wizard.php) och följ instruktionerna nogrannt
-3. Om du har gjort klart alla steg kan du dubbelkolla att det fungerade genom att klistra in din nya `phpinfo` i denna wizard igen, om det står `Xdebug: Yes` längst upp så är det installerat.
+2. Gå till [https://xdebug.org/wizard.php](https://xdebug.org/wizard.php) och följ instruktionerna nogrannt.
+3. Om du har gjort klart alla steg kan du dubbelkolla att det fungerade genom att klistra in din nya `phpinfo` i denna wizard igen, om det står `Xdebug: Yes` längst upp så är det installerat. **Observera att det kan vara problem på mac med att kopiera Xdebug till den mappen den ska ligga i. Du kan lägga `xdebug.so` i en annan mapp och länka till den mappen. Läs detta svar och testa den lösningen: https://stackoverflow.com/a/46623845/5836872**
+
+### XDebug + VSCode
+
+1. För att använda XDebug med Visual Studio Code så kan du följa instruktionerna i tillägget: [PHP Debug adapter](https://github.com/felixfbecker/vscode-php-debug)

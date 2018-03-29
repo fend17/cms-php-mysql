@@ -50,11 +50,11 @@ _Tips: öka hastigheten till 1.25x eller 1.5x om det går för långsamt_
 
 > Länkar kommer att fyllas på med fler länkar till varje moment
 
-| Pass  | Vecka     | Datum   | Innehåll                                                | Länkar                                                | Övningar |
-|-------|-------    |---------|---------------------------------------------------------|-------------------------------------------------------|---|
-| 1     | **13**    | 28/3    | Introduktion, Sätta upp webserver, Grundläggande PHP    |[MAMP](https://www.mamp.info/en/), [PHP Installation](http://www.phptherightway.com/#use_the_current_stable_version)| [01](https://github.com/fend17/cms-php-mysql/blob/master/exercises/01_basic_syntax.md), [02](https://github.com/fend17/cms-php-mysql/blob/master/exercises/02_variables_if_else.md), [03](https://github.com/fend17/cms-php-mysql/blob/master/exercises/03_loops.md), [04](https://github.com/fend17/cms-php-mysql/blob/master/exercises/04_functions.md) |
-| 2     | 13        | 29/3    | PHP Programmering, Arrayer, funktioner, scope           |[PHP Pandas](http://daylerees.com/php-pandas/)        |
-| 3     | **14**    | 4/4     | `include`/`require`, filstruktur, separation of concerns|[PHP Pandas](http://daylerees.com/php-pandas/)        |
+| Pass  | Vecka     | Datum   | Innehåll                                                | Länkar                                                | Övningar | Slides |
+|-------|-------    |---------|---------------------------------------------------------|-------------------------------------------------------|---|---|
+| 1     | **13**    | 28/3    | Introduktion, Sätta upp webserver, Grundläggande PHP    |[MAMP](https://www.mamp.info/en/), [PHP Installation](http://www.phptherightway.com/#use_the_current_stable_version)| [01](https://github.com/fend17/cms-php-mysql/blob/master/exercises/01_basic_syntax.md), [02](https://github.com/fend17/cms-php-mysql/blob/master/exercises/02_variables_if_else.md), [03](https://github.com/fend17/cms-php-mysql/blob/master/exercises/03_loops.md), [04](https://github.com/fend17/cms-php-mysql/blob/master/exercises/04_functions.md) | [01](https://fend17.github.io/slides/php/01_intro.html) |
+| 2     | 13        | 29/3    | Funktioner, scope, `include`/`require`, filstruktur     |[PHP Pandas](http://daylerees.com/php-pandas/)        | [05](https://github.com/fend17/cms-php-mysql/blob/master/exercises/05_scope_and_includes.md) | [02](https://fend17.github.io/slides/php/02_php_basics.html) |
+| 3     | **14**    | 4/4     | Formulär, Separation of Concerns                        |[PHP Pandas](http://daylerees.com/php-pandas/)        |
 | 4     | 14        | 5/4     | Objektorienterad PHP                                    |[PHP Pandas](http://daylerees.com/php-pandas/)        |
 | 5     | 14        | 6/4     | Objektorienterad PHP                                    |[PHP Pandas](http://daylerees.com/php-pandas/)        |
 | 6     | **15**    | 11/4    | Grundläggande SQL                                       |[SQL @ w3schools](https://www.w3schools.com/sql/)     |
@@ -77,3 +77,29 @@ _Tips: öka hastigheten till 1.25x eller 1.5x om det går för långsamt_
 | 23    | 21        | 22/5    | Eget arbete med grupprojekt                             |     |
 | 24    | 21        | 24/5    | **Presentation av grupprojekt**                         |     |
 
+
+## Naming Conventions
+
+Det är rekommenderat att följa **[PHP-FIG PHP Stardard Recommendations](https://www.php-fig.org/psr/)** när du skriver PHP.
+Värt att observera dock är att PSR inte ger några direktiv gällande globala funktion och variabelnamn samt att olika PHP-ramverk
+använder sig utav olika naming conventions. Listan nedan visar hur varje enskilt ramverk skriver sin kod.
+
+
+|      PHP Project      |   Classes   |  Methods   |  Properties  | Functions  | Variables  |
+|---|------|---|---|---|---|
+| **Akelos** Framework      | PascalCase  | camelCase  | camelCase    | lower_case | lower_case |
+| **CakePHP** Framework     | PascalCase  | camelCase  | camelCase    | camelCase  | camelCase  |
+| **CodeIgniter** Framework | Proper_Case | lower_case | lower_case   | lower_case | lower_case |
+| **Concrete5** CMS         | PascalCase  | camelCase  | camelCase    | lower_case | lower_case |
+| **Doctrine** ORM          | PascalCase  | camelCase  | camelCase    | camelCase  | camelCase  |
+| **Drupal** CMS            | PascalCase  | camelCase  | camelCase    | lower_case | lower_case |
+| **Joomla** CMS            | PascalCase  | camelCase  | camelCase    | camelCase  | camelCase  |
+| **modx** CMS              | PascalCase  | camelCase  | camelCase    | camelCase  | lower_case |
+| **Pear** Framework        | PascalCase  | camelCase  | camelCase    |            |            |
+| **Prado** Framework       | PascalCase  | camelCase  | Pascal/camel |            | lower_case |
+| **SimplePie** RSS         | PascalCase  | lower_case | lower_case   | lower_case | lower_case |
+| **Symfony** Framework     | PascalCase  | camelCase  | camelCase    | camelCase  | camelCase  |
+| **WordPress** CMS         |             |            |              | lower_case | lower_case |
+| **Zend** Framework        | PascalCase  | camelCase  | camelCase    | camelCase  | camelCase  |
+
+**Source: [https://stackoverflow.com/a/44042572/5836872](https://stackoverflow.com/a/44042572/5836872)**

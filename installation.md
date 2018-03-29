@@ -7,8 +7,9 @@
   - [Svåra sättet](#svåra-sättet)
      - [Mac](#mac-1)
       - [Windows](#windows-1)
-* [MySQL - kommer snart]()
-* [Xdebug](#xdebug)
+* [PHP-cs-fixer](#php-cs-fixer) (Autoformattera PHP-kod)
+* [Xdebug](#xdebug) (Debugga via editorn)
+* [MySQL - kommer snart](#mysql)
 
 ## `PHP`
 
@@ -54,6 +55,14 @@ så är det här för dig.
 
 **Observera att detta installerar enbart `PHP` och inte `MySQL` som senare behövs i kursen. Om du kör denna väg så måste du även separat installera `MySQL` och ett gränssnitt för `MySQL`. Det går även att köra `MySQL`-databasen via MAMP och sedan köra PHP via terminalen. De går att kombinera**
 
+## PHP-cs-fixer
+
+**PHP-cs-fixer** är ett verktyg som autoformattera PHP-kod enligt rådande PSR-standarder. Det är ett verktyg som måste installeras på datorn, installationen är dock rätt smärtfri. Vidare finns det verktyg till samtliga editors som kan använda sig utav detta verktyg. Så det kan både användas från terminalen samt köras via editor. I länken nedan finns installionsinstruktioner för detta verktyg. Den sista länken är en lista på verktyg till olika editorer som implementerar detta verktyg:
+
+* [PHP-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+* [Helpers for editors](https://github.com/FriendsOfPHP/PHP-CS-Fixer#helpers)
+
+## MySQL
 
 ## XDEBUG
 

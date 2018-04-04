@@ -7,8 +7,9 @@
   - [Svåra sättet](#svåra-sättet)
      - [Mac](#mac-1)
       - [Windows](#windows-1)
-* [MySQL - kommer snart]()
-* [Xdebug](#xdebug)
+* [PHP-cs-fixer](#php-cs-fixer) (Autoformattera PHP-kod)
+* [Xdebug](#xdebug) (Debugga via editorn)
+* [MySQL - kommer snart](#mysql)
 
 ## `PHP`
 
@@ -54,11 +55,35 @@ så är det här för dig.
 
 **Observera att detta installerar enbart `PHP` och inte `MySQL` som senare behövs i kursen. Om du kör denna väg så måste du även separat installera `MySQL` och ett gränssnitt för `MySQL`. Det går även att köra `MySQL`-databasen via MAMP och sedan köra PHP via terminalen. De går att kombinera**
 
+## PHP-cs-fixer
+
+**PHP-cs-fixer** är ett verktyg som autoformattera PHP-kod enligt rådande PSR-standarder. Det är ett verktyg som måste installeras på datorn, installationen är dock rätt smärtfri. Vidare finns det verktyg till samtliga editors som kan använda sig utav detta verktyg. Så det kan både användas från terminalen samt köras via editor. I länken nedan finns installionsinstruktioner för detta verktyg. Den sista länken är en lista på verktyg till olika editorer som implementerar detta verktyg:
+
+* [PHP-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+* [Helpers for editors](https://github.com/FriendsOfPHP/PHP-CS-Fixer#helpers)
+
+## MySQL
 
 ## XDEBUG
 
-För att lättare debugga PHP så finns det ett tillägg som heter `Xdebug` som gör att man kan debugga PHP via sin editor. Man måste dock installera det själv och det är seg process ibland.
+För att lättare debugga PHP så finns det ett tillägg som heter `Xdebug` som gör att man kan debugga PHP via sin editor. Man måste dock installera det själv och det är seg process ibland. Det går att debugga i vilken editor du än använder men alla kräver XDebug.
 
 1. Ta reda på vad du har för `phpinfo` och kopiera den informationen. Med MAMP kan du gå till tabben `phpinfo` och kopiera hela sidan, markera hela sidan och kopiera. I terminalen kan du köra `php -i` och kopiera den output som genereras.
-2. Gå till [https://xdebug.org/wizard.php](https://xdebug.org/wizard.php) och följ instruktionerna nogrannt
-3. Om du har gjort klart alla steg kan du dubbelkolla att det fungerade genom att klistra in din nya `phpinfo` i denna wizard igen, om det står `Xdebug: Yes` längst upp så är det installerat.
+2. Gå till [https://xdebug.org/wizard.php](https://xdebug.org/wizard.php) och följ instruktionerna nogrannt.
+3. Om du har gjort klart alla steg kan du dubbelkolla att det fungerade genom att klistra in din nya `phpinfo` i denna wizard igen, om det står `Xdebug: Yes` längst upp så är det installerat. **Observera att det kan vara problem på mac med att kopiera Xdebug till den mappen den ska ligga i. Du kan lägga `xdebug.so` i en annan mapp och länka till den mappen. Läs detta svar och testa den lösningen: https://stackoverflow.com/a/46623845/5836872**
+
+### XDebug + VSCode
+
+* [PHP Debug adapter](https://github.com/felixfbecker/vscode-php-debug)
+
+### Xdebug + Atom
+
+* https://atom.io/packages/php-debug
+
+### XDebug + Sublime
+
+* https://github.com/martomo/SublimeTextXdebug
+
+### XDebug + Brackets
+
+* https://github.com/spocke/php-debugger

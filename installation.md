@@ -7,6 +7,7 @@
   - [Svåra sättet](#svåra-sättet)
      - [Mac](#mac-1)
       - [Windows](#windows-1)
+* [Composer](#composer)
 * [PHP-cs-fixer](#php-cs-fixer) (Autoformattera PHP-kod)
 * [Xdebug](#xdebug) (Debugga via editorn)
 * [MySQL - kommer snart](#mysql)
@@ -55,6 +56,12 @@ så är det här för dig.
 
 **Observera att detta installerar enbart `PHP` och inte `MySQL` som senare behövs i kursen. Om du kör denna väg så måste du även separat installera `MySQL` och ett gränssnitt för `MySQL`. Det går även att köra `MySQL`-databasen via MAMP och sedan köra PHP via terminalen. De går att kombinera**
 
+## Composer
+
+Besök länken och följ instruktionerna under **Getting Started**. I instruktionerna står det att du ska lägga till `composer` i `PATH`, om du inte vet hur du lägger till något i `PATH` så finns en guide **[HÄR](https://gist.github.com/jesperorb/836cb398e4bb8dc149902d68d3711295)**
+
+* [Composer](https://getcomposer.org/)
+
 ## PHP-cs-fixer
 
 **PHP-cs-fixer** är ett verktyg som autoformattera PHP-kod enligt rådande PSR-standarder. Det är ett verktyg som måste installeras på datorn, installationen är dock rätt smärtfri. Vidare finns det verktyg till samtliga editors som kan använda sig utav detta verktyg. Så det kan både användas från terminalen samt köras via editor. I länken nedan finns installionsinstruktioner för detta verktyg. Den sista länken är en lista på verktyg till olika editorer som implementerar detta verktyg:
@@ -62,7 +69,6 @@ så är det här för dig.
 * [PHP-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 * [Helpers for editors](https://github.com/FriendsOfPHP/PHP-CS-Fixer#helpers)
 
-## MySQL
 
 ## XDEBUG
 
@@ -87,3 +93,5 @@ För att lättare debugga PHP så finns det ett tillägg som heter `Xdebug` som 
 ### XDebug + Brackets
 
 * https://github.com/spocke/php-debugger
+
+## MySQL

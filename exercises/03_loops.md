@@ -301,12 +301,12 @@ for($i = 0; $i < count($best_array); $i++){
 4.
 ```php
 $best_array = array(1, 2, 3, 4, 5);
-$sum = 0;
+$sum = $best_array[0];
 //The number of times the loop will runt is based on the length of the array
 //5 items in the array == count($best_array) returns 5. 
 for($i = 0; $i < count($best_array); $i++){
     //$i is 0,1,2,3,4, this can be used to access the value at these indexes
-    $sum = $sum + $best_array[$i];
+    $sum = $sum * $best_array[$i];
 }
 echo $sum;
 ```

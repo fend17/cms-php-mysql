@@ -42,8 +42,6 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 
 [_CodeCourse_: __PHP Basics Playlist__](https://www.youtube.com/playlist?list=PLfdtiltiRHWHjTPiFDRdTOPtSyYfz3iLW)
 
-_Tips: öka hastigheten till 1.25x eller 1.5x om det går för långsamt_
-
 ---
 
 ## Schema :calendar:
@@ -55,7 +53,7 @@ _Tips: öka hastigheten till 1.25x eller 1.5x om det går för långsamt_
 | 1     | **13**    | 28/3    | Introduktion, Sätta upp webserver, Grundläggande PHP    |[MAMP](https://www.mamp.info/en/), [PHP Installation](http://www.phptherightway.com/#use_the_current_stable_version)| [01](https://github.com/fend17/cms-php-mysql/blob/master/exercises/01_basic_syntax.md), [02](https://github.com/fend17/cms-php-mysql/blob/master/exercises/02_variables_if_else.md), [03](https://github.com/fend17/cms-php-mysql/blob/master/exercises/03_loops.md), [04](https://github.com/fend17/cms-php-mysql/blob/master/exercises/04_functions.md) | [01](https://fend17.github.io/slides/php/01_intro.html) |
 | 2     | 13        | 29/3    | Funktioner, scope, `include`/`require`, filstruktur     |[PHP Pandas](http://daylerees.com/php-pandas/)        | [05](https://github.com/fend17/cms-php-mysql/blob/master/exercises/05_scope_and_includes.md) | [02](https://fend17.github.io/slides/php/02_php_basics.html) |
 | 3     | **14**    | 4/4     | Formulär, Separation of Concerns                        |[PHP Pandas](http://daylerees.com/php-pandas/) [JSON PHP @ W3S](https://www.w3schools.com/js/js_json_php.asp) [FORM Handling @ W3S](https://www.w3schools.com/php/php_forms.asp) [`FormData` @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects) | [06](https://github.com/fend17/cms-php-mysql/blob/master/exercises/06_forms.md) | [03](https://fend17.github.io/slides/php/03_forms.html#/) |
-| 4     | 14        | 5/4     | Objektorienterad PHP                                    |[PHP Pandas](http://daylerees.com/php-pandas/)        |
+| 4     | 14        | 5/4     | Objektorienterad PHP                                    |[Classes @ Pandas](https://daylerees.com/php-pandas-classes/) [Statics @ Pandas](https://daylerees.com/php-pandas-statics/) | [07](exercises/07_oop.md) | [04](https://fend17.github.io/slides/php/04_oop.html) |
 | 5     | 14        | 6/4     | Objektorienterad PHP                                    |[PHP Pandas](http://daylerees.com/php-pandas/)        |
 | 6     | **15**    | 11/4    | Grundläggande SQL                                       |[SQL @ w3schools](https://www.w3schools.com/sql/)     |
 | 7     | 15        | 12/4    | SQL, PDO & PHP                                          |[PDO](https://phpdelusions.net/pdo)                   |

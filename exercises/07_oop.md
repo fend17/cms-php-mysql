@@ -15,21 +15,21 @@ echo "Titel: $first_book->title \nFörfattare: $first_book->author";
 
 5 . Skapa en metod i `Book` med namnet `printInfo`. Metoden ska inte ta några parametrar. När den anropas ska den skriva ut bokens titel och författaren med `echo`, i princip som koden i övning 2.
 
-6. Lägg till en konstruktor till klassen `Book`. Konstruktorn ska ta två argument och använda dem för att sätta värdet på egenskaperna `title` och `author`.
+6 . Lägg till en konstruktor till klassen `Book`. Konstruktorn ska ta två argument och använda dem för att sätta värdet på egenskaperna `title` och `author`.
 
-7. Skapa en klass med namnet `Car`. Den ska ha flera egenskaper: `model`, `color` och `price`. Skapa ett objekt av klassen `Car` och ge det lämpliga värden på egenskaperna. Skapa även en konstruktor till klassen `Car` så man direkt kan sätta värdena när man skapar bilen.
+7 . Skapa en klass med namnet `Car`. Den ska ha flera egenskaper: `model`, `color` och `price`. Skapa ett objekt av klassen `Car` och ge det lämpliga värden på egenskaperna. Skapa även en konstruktor till klassen `Car` så man direkt kan sätta värdena när man skapar bilen.
 
-8. Lägg till en metod i `Car` med namnet `printInfo`. Metoden ska inte ha några parametrar. När metoden anropas ska den skriva ut information om `Car`-objektet. Till exempel, om `model="Volvo"`, `color="red"` och `price=25000` så ska funktionen skriva:
+8 . Lägg till en metod i `Car` med namnet `printInfo`. Metoden ska inte ha några parametrar. När metoden anropas ska den skriva ut information om `Car`-objektet. Till exempel, om `model="Volvo"`, `color="red"` och `price=25000` så ska funktionen skriva:
 ```
 "Det här är en röd Volvo som kostar 25000 kr".
 ```
 
-9. Skapa en metod i `Car` med namnet `halfPrice`. När metoden anropas ska den ändra värdet på egenskapen price till hälften.
+9 . Skapa en metod i `Car` med namnet `halfPrice`. När metoden anropas ska den ändra värdet på egenskapen price till hälften.
 
-10. Lägg till en egenskap till klassen `Car`, `sellDate`, som motsvarar när bilen såldes. Konstruktorn ska sätta `sellDate` till dagens datum. Exempel: "2017-03-27".
+10 . Lägg till en egenskap till klassen `Car`, `sellDate`, som motsvarar när bilen såldes. Konstruktorn ska sätta `sellDate` till dagens datum. Exempel: "2017-03-27".
 Tips: använd [`PHP.net: Date`](http://php.net/manual/en/function.date.php)
 
-11. Skriv en klass med namnet `SingleBookLibrary`. Den ska ha egenskaper med namnet `book` och `isBorrowed`. Egenskapen `book` ska vara ett objekt av klassen `Book`. Lägg till en metod med namnet `borrow`, som ändrar värdet på `isBorrowed` till `true`. Metoden ska också skriva ut med echo om det gick att låna, eller om boken redan var utlånad.
+11 . Skriv en klass med namnet `SingleBookLibrary`. Den ska ha egenskaper med namnet `book` och `isBorrowed`. Egenskapen `book` ska vara ett objekt av klassen `Book`. Lägg till en metod med namnet `borrow`, som ändrar värdet på `isBorrowed` till `true`. Metoden ska också skriva ut med echo om det gick att låna, eller om boken redan var utlånad.
 
 ## Access modifiers, public/private
 
@@ -153,11 +153,7 @@ $second_book->changeTitle("Harry Potter and the Philosopher's Stone");
 class Book {
   public $title;
   public $author;
-
-  public function __construct($title, $author) {
-    $this->title = $title;
-    $this->author = $author;
-  }
+  
   public function printInfo() {
     echo "Titel: $this->title \nFörfattare: $this->author";
   }

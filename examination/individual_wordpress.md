@@ -9,7 +9,7 @@ Wordpress är det ledande CMSet (med stor marginal) och vi kommer därför att f
 
 ## Krav för G
 
-* Du ska ha skapat ett eget **Child theme** utifrån ett redan existerande default tema i Wordrpress. Du får alltså inte ladda ner något nytt tema utan du får bara utöka ett av de redan existerande teman som följer med vid installation. 
+* Du ska ha skapat ett eget **Child theme** utifrån ett redan existerande default tema i Wordpress. Du får alltså inte ladda ner något nytt tema utan du får bara utöka ett av de redan existerande teman som följer med vid installation. 
 * Du skapar minst **3** olika **Custom Templates** som du använder på din sida. Dessa templates ska ha en tydlig funktion och ändra utseendet på en eller flera sidor. Ett exempel kan t.ex. vara att göra en _Full Width Template_ utan sidebars, en sida som visar upp en viss kategori eller som visar upp en viss tagg.
 * Din Wordpress-sida innehåller minst **3** olika sidor med valfritt innehåll där minst en av varje sida implementerar tidigare skapade **Custom Templates**.
 * Sidan ska följa god kodstandard gällande HTML, CSS & PHP. D.v.s god kodstruktur, kommenterad kod, tillgänglighetsanpassad samt fungera i alla nyare webbläsare. Detta gäller främst eran egen kod och jag har överseende med att temat ni modifierar kan ha kod som inte håller god kodstandard.
@@ -38,6 +38,7 @@ förnamn_efternamn_wordpress.wpress
 ```
 
 För att jag ska kunna logga in på din sida ska du ha följande inloggningsuppgifter på din användaren:
+
 **Användarnamn:** fend17
 **Lösenord:** fend17
 

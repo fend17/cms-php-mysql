@@ -61,7 +61,7 @@ Era filer och era mappar **måste** heta enligt detta mönster vid inlämning an
 
 ## Inlämning
 
-* Lämnas in senast: **26/5 23.59**
+* Lämnas in senast: **24/5 23.59**
 * Lämnas in via **Studentportalen** under **Individuell 1 - Journal**
 * Lämnas in som:
 ```

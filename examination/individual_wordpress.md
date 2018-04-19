@@ -43,5 +43,5 @@ För att jag ska kunna logga in på din sida ska du ha följande inloggningsuppg
 **Lösenord:** fend17
 
 * Lämnas in via **Studentportalen**_
-* Lämnas in senast: **24/4 23.59**
+* Lämnas in senast: **24/5 23.59**
 

@@ -60,7 +60,7 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 | 8     | 15        | 13/4    | Fördjupning i SQL / PDO / Auth                          |[SQL @ w3schools](https://www.w3schools.com/sql/), [PHP Security](https://www.owasp.org/index.php/PHP_Security_Cheat_Sheet) | [11](exercises/11_php_auth.md) | [08](https://fend17.github.io/slides/php/08_auth_session.html) |
 | 9     | **16**    | 18/4    | WordPress & CMS                                         |[Wordpress Codex](https://codex.wordpress.org/)       | [12](exercises/12_wordpress.md) | [09](https://fend17.github.io/slides/php/09_wordpress.html) |
 | 10    | 16        | 19/4    | WordPress & CMS / Child Themes                          |[Wordpress Codex](https://codex.wordpress.org/)       | | [10](https://fend17.github.io/slides/php/10_wordpress2.html) |
-| 11    | 16        | 20/4    | WordPress & CMS / Child Themes                          |[Child Themes](https://codex.wordpress.org/Child_Themes)     |
+| 11    | 16        | 20/4    | Eget arbete med Inlämningsuppgifter                     | | | |
 | 12    | **17**    | 25/4    | Composer / Ramverket `Slim`                             |[Composer](https://getcomposer.org/), [Slim](https://www.slimframework.com/)     |
 | 13    | 17        | 26/4    | ReST API Design /Routing + PDO                          |[Slim](https://www.slimframework.com/), [RESTAPITUTORIAL](http://www.restapitutorial.com/)     |
 | 13    | 17        | 27/4    | ReST API Design / Routing + PDO                         |[Slim](https://www.slimframework.com/), [RESTAPITUTORIAL](http://www.restapitutorial.com/)    |

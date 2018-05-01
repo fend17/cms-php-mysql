@@ -61,19 +61,19 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 | 9     | **16**    | 18/4    | WordPress & CMS                                         |[Wordpress Codex](https://codex.wordpress.org/), [Templates](https://codex.wordpress.org/Templates), [The Loop](https://codex.wordpress.org/The_Loop)     | [12](exercises/12_wordpress.md) | [09](https://fend17.github.io/slides/php/09_wordpress.html) |
 | 10    | 16        | 19/4    | WordPress & CMS / Child Themes                          |[Wordpress Codex](https://codex.wordpress.org/), [Hooks](https://www.smashingmagazine.com/2011/10/definitive-guide-wordpress-hooks/), [WP_Query](https://codex.wordpress.org/Class_Reference/WP_Query) | | [10](https://fend17.github.io/slides/php/10_wordpress2.html) |
 | 11    | 16        | 20/4    | Eget arbete med Inlämningsuppgifter                     | | | |
-| 12    | **17**    | 25/4    | Composer / Ramverket `Slim`                             |[Composer](https://getcomposer.org/), [Slim](https://www.slimframework.com/) | [13](exercises/13_slim.md) [14](exercises/14_slim2.md) | [11](https://fend17.github.io/slides/php/11_api.html) |
-| 13    | 17        | 26/4    | ReST API Design /Routing + PDO                          |[Slim](https://www.slimframework.com/), [RESTAPITUTORIAL](http://www.restapitutorial.com/)     |
-| 13    | 17        | 27/4    | ReST API Design / Routing + PDO                         |[Slim](https://www.slimframework.com/), [RESTAPITUTORIAL](http://www.restapitutorial.com/)    |
-| 15    | **18**    | 2/5     | Authentication/Authorization                            |     |
+| 12    | **17**    | 25/4    | Inställd lektion / Sjuk                                 | | | |         
+| 13    | 17        | 26/4    | Wordpress                                               | [Wordpress Codex](https://codex.wordpress.org/), [Hooks](https://www.smashingmagazine.com/2011/10/definitive-guide-wordpress-hooks/), [WP_Query](https://codex.wordpress.org/Class_Reference/WP_Query) | | |
+| 14    | 17        | 27/4    | Composer / Ramverket `Slim`                             | [Composer](https://getcomposer.org/), [Slim](https://www.slimframework.com/), [RESTAPITUTORIAL](http://www.restapitutorial.com/)   | [13](exercises/13_slim.md) [14](exercises/14_slim2.md) | [11](https://fend17.github.io/slides/php/11_api.html) |
+| 15    | **18**    | 2/5     | REST API Design                                         | [Slim](https://www.slimframework.com/), [RESTAPITUTORIAL](http://www.restapitutorial.com/)        |
 | 16    | 18        | 3/5     | Interaktion med JavaScript & `fetch`                    |     |
-| 17    | 18        | 4/5     | Best practice / Att tänka på / Gotchas                  |     |
-| 18    | **19**    | 9/5     | Deploy to production / CORS / Molndatabas               |     |
+| 17    | 18        | 4/5     | Eget arbete med grupprojekt                             |     |
+| 18    | **19**    | 9/5     | Att tänka på / Gotchas / Fördjupning                    |     |
 | 19    | **20**    | 16/5    | Eget arbete med grupprojekt                             |     |
 | 20    | 20        | 17/5    | Eget arbete med grupprojekt                             |     |
 | 21    | 20        | 18/5    | Eget arbete med grupprojekt                             |     |
 | 22    | **21**    | 22/5    | Eget arbete med grupprojekt                             |     |
 | 23    | 21        | 22/5    | Eget arbete med grupprojekt                             |     |
-| 24    | 21        | 24/5    | **Presentation av grupprojekt**                         |     |
+| 24    | 21        | 24/5    | **Presentation av grupprojekt i tvärgrupper**           |     |
 
 
 ## Naming Conventions

@@ -16,6 +16,7 @@ Ni som grupp ska skapa ett API med hjälp av PHP-ramverket [Slim](https://www.sl
 * Varje ny `Controller` som du du skapar ska ligga i mappen `src/App/Controllers`. Filen måste ha samma namn som klassen. Varje ny klass ska ha `namespace App\Controllers`.
 * Er kod ska finnas på __GitHub__ och ha en `README` med följande information:
     - gruppens namn
+    - gruppens medlemmars namn
     - länk till själva GitHub-repositoriet.
 
 ## Struktur av databasen
@@ -35,17 +36,19 @@ Ni som grupp ska skapa ett API med hjälp av PHP-ramverket [Slim](https://www.sl
 **`comments`**
 
 | commentID    | entryID  | content      | createdBy      | createdAt  |
-| -------------| ---------| -------------| ---------------| --------- -|
+| -------------| ---------| -------------| ---------------| ----------|
 | INT (AI)(PK) | INT      | VARCHAR(250) | INT            | DATETIME   |
 
 ## Krav
 
 * Man ska kunna hämta ut de 20 senaste inläggen via `GET /api/entries`
+* Man ska kunna skapa ett inlägg via `POST /api/entries`
 * Man ska kunna hämta ut ett enskilt specifikt inlägg via `GET /api/entries/{ID}`
 * Man ska kunna ta bort ett enskilt specifikt inlägg via `DELETE /api/entries/{ID}`
 * Man ska kunna uppdatera ett enskilt specifikt inlägg via `PATCH /api/entries/{ID}`
 * Man ska kunna hämta alla inlägg som en användare har skrivit via en endpoint.
 * Man ska kunna hämta de 20 senaste kommentarerna via `GET /api/comments` 
+* Man ska kunna skapa en kommentar via `POST /api/comments`
 * Man ska kunna hämta ut en enskild specifik kommentar via `GET /api/comments/{ID}`
 * Man ska kunna ta bort en enskild specifik kommentar via `DELETE /api/comments/{ID}`
 * Man ska kunna hämta alla kommentarer kopplat till ett inlägg via en endpoint.

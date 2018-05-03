@@ -15,7 +15,7 @@ Ni som grupp ska skapa ett API med hjälp av PHP-ramverket [Slim](https://www.sl
 * Ert projekt ska ha samma struktur som [slim-boilerplate-extended](slim-boilerplate-extended). 
 * Varje ny `Controller` som du du skapar ska ligga i mappen `src/App/Controllers`. Filen måste ha samma namn som klassen. Varje ny klass ska ha `namespace App\Controllers`.
 * Er kod ska finnas på __GitHub__ och ha en `README` med följande information:
-    - gruppens namn
+    - gruppens namn som ni bestämmer själva
     - gruppens medlemmars namn
     - länk till själva GitHub-repositoriet.
 

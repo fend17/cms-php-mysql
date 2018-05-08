@@ -67,7 +67,7 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 | 15    | **18**    | 2/5     | REST API Design                                         | [Slim](https://www.slimframework.com/), [RESTAPITUTORIAL](http://www.restapitutorial.com/)        |
 | 16    | 18        | 3/5     | Interaktion med JavaScript & `fetch`                    |     |
 | 17    | 18        | 4/5     | Eget arbete med grupprojekt                             |     |
-| 18    | **19**    | 9/5     | Repetition / Fördjupning                                |     |
+| 18    | **19**    | 9/5     | Repetition / Fördjupning / Eget arbete                  |     |
 | 19    | **20**    | 16/5    | Eget arbete med grupprojekt                             |     |
 | 20    | 20        | 17/5    | Eget arbete med grupprojekt                             |     |
 | 21    | 20        | 18/5    | Eget arbete med grupprojekt                             |     |
